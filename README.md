@@ -78,7 +78,7 @@ assignment_1_nmike23/
 წავშალე ის ცვლადები, რომელთა ურთიერთკორელაცია (Pearson) `0.85`-ს აღემატებოდა. ზედმეტად კორელირებული ცვლადები მოდელს
 აბნევს და არასტაბილურს ხდის.
 
-#### 2. დაბალი პროგნოზირებადი ძალის ფილტრი
+#### 2. დაბალი პროგნოზირებადი ძალის (Low Predictive Power) ფილტრი
 
 წავშალე ცვლადები, რომელთა კორელაცია `SalePrice`-თან (სამიზნე ცვლადთან) `0.05`-ზე ნაკლები იყო. ეს გვეხმარება ზედმეტი
 ხმაურის (noise) თავიდან არიდებაში.
@@ -135,8 +135,8 @@ Kaggle-ის Public Leaderboard-ზეც გააუმჯობესა ქ
 ## MLflow Tracking
 
 * MLFlow პროექტი დაკავშირებულია DagsHub-თან.
-* ექსპერიმენტების ნახვა შეგიძლიათ ლინკზე: https://dagshub.com/NikaMikeltadze/assignment_1_nmike23
+* ექსპერიმენტების ნახვა შეგიძლიათ ლინკზე: https://dagshub.com/NikaMikeltadze/assignment_1_nmike23/experiments
 * დალოგილია: `train_rmse`, `train_mae`, `train_r2`, `val_rmse`, `val_mae`, `val_r2`, და ექსპერიმენტების
   ჰიპერპარამეტრები.
-* მოდელები შენახულია და ვერსიონირებულია MLFlow Model Registry-ში. ამჟამად Production/Staging-ად გამოყენებულია
+* მოდელები შენახულია და ვერსიონირებულია MLFlow Model Registry-ში.Submission-ად გამოყენებულია
   **Ridge_Optimized ვერსია 5**.
